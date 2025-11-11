@@ -64,11 +64,10 @@ plot2d3('gnn',r);
 <img width="765" height="599" alt="Screenshot 2025-10-28 102533" src="https://github.com/user-attachments/assets/a0c297b0-2ae0-4049-8152-7ea6365caf34" />
 
 ## TABULAR COLUMN
-<img width="940" height="594" alt="image" src="https://github.com/user-attachments/assets/60b38d79-f068-4739-8fe0-2f6171361f50" />
+![WhatsApp Image 2025-11-11 at 16 33 07_00c5c7e3](https://github.com/user-attachments/assets/87b9a0a8-5a35-4cf7-a8bb-a0bf78be73da)
 
 ## MANUAL CALCULATION
-<img width="818" height="1454" alt="image" src="https://github.com/user-attachments/assets/4a56945b-60f3-419d-a604-cc89643a5175" />
-<img width="940" height="693" alt="image" src="https://github.com/user-attachments/assets/89841c76-1b74-4a15-8317-60a1b16d70d5" />
+![WhatsApp Image 2025-11-11 at 16 29 02_e5813801](https://github.com/user-attachments/assets/baadcadc-4886-42e0-8009-ea87b844cbac)
 
 ## RESULT
 hus the mean , variance and cross correlation are executed in Scilab and output is verified.
