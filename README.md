@@ -26,7 +26,7 @@ To write a program for mean, variance and cross correlation in SCILAB and verify
 ```
 clear; clc;
 function X = f(x)
-    z = (2 - x).^2;
+    z = (3 - x).^2;
     X = x .* z;
 endfunction
 a = 0; b = 1;
@@ -37,7 +37,7 @@ function Y = c(y)
 endfunction
 EY = intg(a, b, c);
 function X2 = g(x)
-    z = (2 - x).^2;
+    z = (3 - x).^2;
     X2 = (x.^2) .* z;
 endfunction
 EX2 = intg(a, b, g);
@@ -58,16 +58,16 @@ n1=max(size(y))-1;
 n2=max(size(x))-1;
 r=corr(x,y,n1);
 plot2d3('gnn',r);
+
 ```
 ## Output
-<img width="538" height="527" alt="image" src="https://github.com/user-attachments/assets/71f1ada3-3fbd-40de-8791-774793d59119" />
-<img width="765" height="599" alt="Screenshot 2025-10-28 102533" src="https://github.com/user-attachments/assets/a0c297b0-2ae0-4049-8152-7ea6365caf34" />
+<img width="554" height="369" alt="Screenshot 2025-11-14 083447" src="https://github.com/user-attachments/assets/0610099f-3b9f-4f43-a852-53174d1e99e9" />
 
 ## TABULAR COLUMN
-![WhatsApp Image 2025-11-11 at 16 33 07_00c5c7e3](https://github.com/user-attachments/assets/87b9a0a8-5a35-4cf7-a8bb-a0bf78be73da)
+![WhatsApp Image 2025-11-14 at 13 13 27_abec9532](https://github.com/user-attachments/assets/2a89afa9-3d16-4597-baf1-dbe8d19ae177)
 
 ## MANUAL CALCULATION
-![WhatsApp Image 2025-11-11 at 16 29 02_e5813801](https://github.com/user-attachments/assets/baadcadc-4886-42e0-8009-ea87b844cbac)
+![WhatsApp Image 2025-11-14 at 13 13 33_b2152f29](https://github.com/user-attachments/assets/4cb26697-5a2c-4e7e-a0ef-84c1c7b78617)
 
 ## RESULT
-hus the mean , variance and cross correlation are executed in Scilab and output is verified.
+Thus the mean , variance and cross correlation are executed in Scilab and output is verified.
